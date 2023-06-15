@@ -88,6 +88,7 @@ const Header = () => {
             ></motion.div>
             {/* bar2 */}
             <motion.div
+              variants={fadeIn("down", "tween", 1.2, 1.4)}
               initial={{
                 rotate: 0,
               }}
