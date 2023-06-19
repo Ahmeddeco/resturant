@@ -29,7 +29,7 @@ const About = () => {
           {/* image */}
           <motion.div
             variants={plateVariants}
-            className='-mb-[300px]-mr-[186px] z-10'>
+            className='-mb-[300px]-mr-[186px] z-20'>
             <img src={image} alt='food dish' className='' />
           </motion.div>
         </motion.div>
