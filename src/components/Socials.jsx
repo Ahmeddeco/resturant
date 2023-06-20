@@ -5,6 +5,7 @@ const Socials = () => {
     <div className='flex gap-x-[10px]'>
       {socialData.map((item, index) => {
         return (
+          
           <a
             href={item.href}
             key={index}
